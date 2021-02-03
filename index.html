@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="form">
+    <form id="form" action="" name="gg_form" onsubmit="return validate()">
+        <label for="fullname">Name</label><br>
+        <input type="text" class="input" name="fullname" placeholder="Enter fullname..." ><br>
+        <label for="">Email</label><br>
+        <input type="email" class="input" name="email" placeholder="Enter email "><br>
+        <label for="">Mobile</label><br>
+        <input type="tel" class="input" name="mobile" placeholder="Enter mobile number..."><br>
+        <label for="select">Select option</label><br>
+        <select name="select" >
+            <option value="Select an opation" selected>Select an opation</option>
+            <option value="student">Student</option>
+            <option value="graguate" >Graguate</option>
+            <option value="master" >Master</option>
+            <option value="phd">Phd</option>
+        </select><br>
+        <label for="">Message</label><br>
+        <textarea name="textarea" class="message" cols="40" rows="2" placeholder="write a message..."></textarea><br>
+        <label for="password">Password</label><br>
+        <input type="password" class="input" name="password" placeholder="Enter password..." ><br>
+        <input type="submit" class="inputButton" value="Submit">
+    </form>
+    <div id="error"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
