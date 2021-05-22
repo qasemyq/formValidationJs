@@ -1,7 +1,4 @@
-
-
-
-
+//
 function validate(){
     let name = document.gg_form.fullname;
     /* console.log(document.gg_form.fullname.value); */
