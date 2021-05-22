@@ -1,12 +1,4 @@
 
-/* prevent page from submiting
-
-// be inja rabti nadare vali in prevent mikone az submit 
-
-form.addEventListener('submit', function(e){
-        e.preventDefault()
-})
-*/
 
 
 
